@@ -1,7 +1,11 @@
-﻿class Program
+﻿namespace Drinks_API
 {
-    static void Main(string[] args)
+    class Program
     {
-        Console.WriteLine();
+        static void Main(string[] args)
+        {
+            UserInput userInput = new();
+            userInput.GetCategoriesInput();
+        }
     }
 }
